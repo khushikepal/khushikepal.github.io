@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khushi Shah</title>
+  <meta name="description" content="Personal website of Khushi Shah.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">Khushi</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Khushi Shah</h1>
+      <!-- EDIT: replace this line with a one-sentence intro about yourself -->
+      <p class="lead">I love learning, creating, and sharing ideas. This is my little corner of the internet.</p>
+      <div class="actions">
+        <a class="btn primary" href="#work">See my work</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <!-- EDIT: write a few sentences about who you are and what you care about -->
+      <p>
+        Write a short paragraph here about who you are, where you're from, what you're
+        studying or working on, and what you enjoy doing in your free time.
+      </p>
+      <ul class="tags">
+        <!-- EDIT: your interests or skills -->
+        <li>Reading</li>
+        <li>Art &amp; Design</li>
+        <li>Writing</li>
+        <li>Music</li>
+        <li>Technology</li>
+      </ul>
+    </section>
+
+    <section id="work" class="section">
+      <h2>Things I've made</h2>
+      <div class="cards">
+        <!-- EDIT: one <article> per project. Duplicate or delete as needed. -->
+        <article class="card">
+          <h3>Project one</h3>
+          <p>A short description of something you made, wrote, or worked on, and what you learned.</p>
+          <a href="#">Learn more →</a>
+        </article>
+        <article class="card">
+          <h3>Project two</h3>
+          <p>Maybe a school project, an art piece, a club you lead, or a competition you entered.</p>
+          <a href="#">Learn more →</a>
+        </article>
+        <article class="card">
+          <h3>Project three</h3>
+          <p>Anything you're proud of belongs here. Add a link if it lives somewhere online.</p>
+          <a href="#">Learn more →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Say hello</h2>
+      <p>Want to reach me? Find me here:</p>
+      <div class="actions">
+        <a class="btn" href="https://github.com/khushishah02" target="_blank" rel="noopener">GitHub</a>
+        <!-- EDIT: add an email or other links if you'd like, e.g.
+        <a class="btn" href="mailto:you@example.com">Email</a> -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Khushi Shah</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
